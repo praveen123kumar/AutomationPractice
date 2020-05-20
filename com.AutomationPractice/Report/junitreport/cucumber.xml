@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="77.446242">
+<testcase classname="Dresses page validation" name="Verify Product Count" time="69.075506">
+<system-out><![CDATA[Given User lanuch the application...........................................passed
+When User click on tab "DRESSES"............................................passed
+Then User should see the same number of products count matching with the product header count displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Dresses page validation" name="Product Count Verification" time="8.370736">
+<system-out><![CDATA[Given User lanuch the application...........................................passed
+When Click the tab "DRESSES"................................................passed
+And the click on Add to cart button for the product "<product>".............passed
+Then the product should added to cart page..................................passed
+And close the popup.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

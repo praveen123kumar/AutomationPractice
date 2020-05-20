@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Verify Product Count",
+        "description": "",
+        "id": "dresses-page-validation;verify-product-count;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 62428859394,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User lanuch the application",
+            "match": {
+              "location": "DressesPageValidation.user_lanuch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3713838560,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on tab \"DRESSES\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DRESSES",
+                  "offset": 19
+                }
+              ],
+              "location": "DressesPageValidation.user_click_on_tab(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2932808151,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should see the same number of products count matching with the product header count displayed",
+            "match": {
+              "location": "DressesPageValidation.user_should_see_the_same_number_of_products_count_matching_with_the_product_header_count_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Product Count Verification",
+        "description": "",
+        "id": "dresses-page-validation;product-count-verification;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5902356,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User lanuch the application",
+            "match": {
+              "location": "DressesPageValidation.user_lanuch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3692408113,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click the tab \"DRESSES\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DRESSES",
+                  "offset": 15
+                }
+              ],
+              "location": "DressesPageValidation.click_the_tab(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2028682835,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the click on Add to cart button for the product \"\u003cproduct\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cproduct\u003e",
+                  "offset": 49
+                }
+              ],
+              "location": "DressesPageValidation.the_click_on_Add_to_cart_button_for_the_product(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2247442064,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the product should added to cart page",
+            "match": {
+              "location": "DressesPageValidation.the_product_should_added_to_cart_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 396300717,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "close the popup",
+            "match": {
+              "location": "DressesPageValidation.close_the_popup()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Dresses page validation",
+    "description": "",
+    "id": "dresses-page-validation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/DressPageValidation.feature"
+  }
+]
